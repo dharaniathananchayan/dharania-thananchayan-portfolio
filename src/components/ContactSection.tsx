@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { ArrowUp, Check, Copy, Mail, MapPin, Phone, Send } from 'lucide-react';
+import { ArrowUp, Check, Copy, FileText, Mail, MapPin, Phone, Send } from 'lucide-react';
 import { GithubIcon, LinkedinIcon, CodolioIcon } from './SocialIcons';
 
 interface ContactSectionProps {
@@ -205,6 +205,19 @@ export const ContactSection: React.FC<ContactSectionProps> = ({
               >
                 <CodolioIcon className="w-3.5 h-3.5 text-amber-400" />
                 <span>Codolio Profile</span>
+              </a>
+            </div>
+
+            {/* Resume Download / View Button */}
+            <div className="pt-4">
+              <a
+                href="/certificates/Dharania_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center justify-center gap-2.5 px-6 py-3.5 rounded-xl bg-white hover:bg-neutral-100 text-neutral-950 font-semibold text-xs sm:text-sm transition-all shadow-md active:scale-98 group w-full sm:w-auto"
+              >
+                <FileText className="w-4 h-4 text-emerald-600 group-hover:scale-110 transition-transform" />
+                <span>View &amp; Download My Resume</span>
               </a>
             </div>
 

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Compass, Terminal, Mail, MapPin, Quote } from 'lucide-react';
+import { Compass, Terminal, Mail, MapPin, Quote, FileText } from 'lucide-react';
 import { LinkedinIcon, CodolioIcon, GithubIcon } from './SocialIcons';
 import dharaniaPhoto from '../assets/dharania.jpg';
 
@@ -174,12 +174,15 @@ export const About: React.FC<AboutProps> = ({
                 </div>
               </div>
 
-              {/* Action Button */}
+              {/* Resume Action Button */}
               <a
-                href="#contact"
-                className="mt-5 w-full py-3.5 px-4 rounded-xl bg-[#0f1115] hover:bg-black text-white text-xs font-semibold flex items-center justify-center transition-all shadow-xs cursor-pointer active:scale-98"
+                href="/certificates/Dharania_Resume.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-5 w-full py-3.5 px-6 rounded-xl bg-[#0f1115] hover:bg-black text-white text-xs sm:text-sm font-semibold flex items-center justify-center gap-2 transition-all shadow-xs cursor-pointer active:scale-98 group"
               >
-                Let&#39;s work together
+                <FileText className="w-4 h-4 text-emerald-400 group-hover:scale-110 transition-transform" />
+                <span>View &amp; Download My Resume</span>
               </a>
 
             </div>
