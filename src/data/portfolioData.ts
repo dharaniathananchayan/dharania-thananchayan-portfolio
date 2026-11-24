@@ -229,9 +229,10 @@ export const experiences: ExperienceItem[] = [
     id: "exp-rubixe",
     role: "AI Engineer Intern",
     company: "Rubixe AI Solutions",
-    period: "Internship",
+    period: "May 2026 — Nov 2026",
     type: "Internship",
     location: "Remote / Chennai",
+    credentialUrl: "/certificates/RX1795500611.pdf",
     description: "Contributed to machine learning lifecycles, developing data preprocessing pipelines, exploratory feature engineering, and model validation frameworks across client datasets.",
     keyAchievements: [
       "Constructed end-to-end exploratory data analysis (EDA) and data wrangling pipelines across structured datasets and image corpuses using Pandas, NumPy, and OpenCV.",
@@ -244,6 +245,16 @@ export const experiences: ExperienceItem[] = [
 ];
 
 export const certifications: CertificationItem[] = [
+  {
+    id: "cert-rubixe-ai",
+    title: "AI Engineer Internship Completion",
+    issuer: "Rubixe AI Solutions",
+    tag: "Internship",
+    date: "May 2026 — Nov 2026",
+    credentialUrl: "/certificates/RX1795500611.pdf",
+    description: "Successfully completed the AI Engineer Internship at Rubixe AI Solutions, contributing to machine learning lifecycles, developing data preprocessing pipelines, exploratory feature engineering, and model validation frameworks.",
+    skills: ["AI Engineering", "Machine Learning", "Scikit-Learn", "OpenCV", "Python", "EDA"]
+  },
   {
     id: "cert-iit-kharagpur",
     title: "Hands-on Approach to Advanced AI for Real-World Applications (HAAI) ++",
