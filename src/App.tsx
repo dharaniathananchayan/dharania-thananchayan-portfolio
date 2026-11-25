@@ -1,4 +1,5 @@
 import { initialProfile, experiences } from './data/portfolioData';
+import { Analytics } from '@vercel/analytics/react';
 import { Navbar } from './components/Navbar';
 import { Hero } from './components/Hero';
 import { About } from './components/About';
@@ -70,6 +71,9 @@ export function App() {
         linkedin={profile.linkedin}
         codolio={profile.codolio}
       />
+
+      {/* Vercel Web Analytics */}
+      <Analytics />
     </div>
   );
 }

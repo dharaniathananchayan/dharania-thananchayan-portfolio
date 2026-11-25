@@ -246,16 +246,6 @@ export const experiences: ExperienceItem[] = [
 
 export const certifications: CertificationItem[] = [
   {
-    id: "cert-rubixe-ai",
-    title: "AI Engineer Internship Completion",
-    issuer: "Rubixe AI Solutions",
-    tag: "Internship",
-    date: "May 2026 — Nov 2026",
-    credentialUrl: "/certificates/RX1795500611.pdf",
-    description: "Successfully completed the AI Engineer Internship at Rubixe AI Solutions, contributing to machine learning lifecycles, developing data preprocessing pipelines, exploratory feature engineering, and model validation frameworks.",
-    skills: ["AI Engineering", "Machine Learning", "Scikit-Learn", "OpenCV", "Python", "EDA"]
-  },
-  {
     id: "cert-iit-kharagpur",
     title: "Hands-on Approach to Advanced AI for Real-World Applications (HAAI) ++",
     issuer: "IIT Kharagpur AI4ICPS | Hub Foundation & TCS iON",
