@@ -81,6 +81,9 @@ export const Toolbox: React.FC = () => {
         'Django',
         'Flask',
         'REST APIs',
+        'Postman',
+        'Playwright',
+        'Selenium',
         'React',
         'Backend Development'
       ]

@@ -773,6 +773,39 @@ export const stackCategories: StackCategory[] = [
         badgeColor: "bg-sky-50 text-sky-700 border-sky-200"
       },
       {
+        name: "Postman",
+        category: "Software & Backend Development",
+        level: 90,
+        levelLabel: "Production Ready",
+        experience: "API Testing & Automation",
+        highlighted: true,
+        projects: ["FastAPI & Flask Endpoint Testing", "REST API Automation"],
+        description: "API request prototyping, automated collection test runs, environment variables, mock servers, and integration validation.",
+        badgeColor: "bg-orange-50 text-orange-700 border-orange-200"
+      },
+      {
+        name: "Playwright",
+        category: "Software & Backend Development",
+        level: 88,
+        levelLabel: "Production Ready",
+        experience: "E2E & Browser Automation",
+        highlighted: true,
+        projects: ["Automated UI Test Suites", "Cross-Browser Regression Testing"],
+        description: "End-to-end testing, headless browser automation, resilient selector locators, network interception, and cross-browser test suites.",
+        badgeColor: "bg-green-50 text-green-700 border-green-200"
+      },
+      {
+        name: "Selenium",
+        category: "Software & Backend Development",
+        level: 86,
+        levelLabel: "Production Ready",
+        experience: "Web Test Automation",
+        highlighted: false,
+        projects: ["Web Scraping & UI Testing", "Automated Regression Suites"],
+        description: "WebDriver browser automation, dynamic DOM element interaction, wait strategies, and automated regression testing.",
+        badgeColor: "bg-teal-50 text-teal-700 border-teal-200"
+      },
+      {
         name: "React",
         category: "Software & Backend Development",
         level: 85,
